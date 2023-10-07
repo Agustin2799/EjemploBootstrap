@@ -1,0 +1,20 @@
+@media (max-width: 991px) {
+    .elementoOcultar {
+        display: none;
+    }
+}
+.elementoMostrar{
+    display: none;
+    margin-top: 5px;
+}
+#btnOpciones{
+    display: none;
+}
+@media (max-width: 991px) {
+    .elementoMostrar {
+        display: inline;
+    }
+    #btnOpciones {
+        display: inline;
+    }
+}
